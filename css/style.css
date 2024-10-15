@@ -1,0 +1,584 @@
+/* common css start */
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    margin: 0 auto;
+    width: 1170px;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul,li{
+    list-style: none;
+}
+
+.common_btn{
+    background-color: #B68C5A;
+    color: #fff;
+    
+}
+.title{
+    font-family: "EB Garamond", serif;
+    font-weight: 800;
+    color: #414040;
+}
+.pera{
+    font-family: "poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #707070;
+}
+/* common css end */
+
+/* navbar css start */
+main nav img{
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+main nav .container a .logo_text {
+    font-family: "EB Garamond", serif;
+    font-size: 35px;
+    font-weight: 800;
+    line-height: 46px;
+}
+
+main nav .container ul li a{
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #707070;
+    transition: .4s;
+}
+
+main nav .container ul li a:hover{
+    color: #B68C5A;
+    
+}
+.navbar-nav .nav-link.active:hover{
+    color:#B68C5A;
+}
+
+main nav .container ul li a:hover .icon{
+    padding-left: 10px;
+    transition: .4s;
+}
+
+main nav .container form button{
+    font-size: 18px;
+    font-weight: 600;
+    height: 60px;
+    width: 220px;
+    border: 2px solid #B68C5A;
+    transition: .4s;
+}
+
+main nav .container form button:hover{
+   background-color: #fff ;
+   color: #B68C5A;
+   border: 2px solid #B68C5A;
+}
+
+
+/* navbar css end */
+
+/* banner css start */
+
+#banner{
+    background: url(../images/Banner_photo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: calc(100vh - 84px);
+    position: relative;
+}
+
+main #banner .overly{
+    background-color: hwb(0 0% 100% / 0.6);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+#banner .banner_text{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+main #banner .banner_text .title{
+    color:white;
+    font-size: 50px;
+    line-height: 60px;
+}
+
+main #banner .banner_text .pera{
+    color: #E7E7E7;
+    font-size: 12px;
+    padding-top: 24px;
+}
+
+#banner .overly .banner_form{
+    position: absolute;
+    top: 70%;
+    left: 35%;
+}
+#banner input{
+    width: 320px;
+    padding: 14px 0 14px 20px;
+    border-radius: 10px;
+    border: none;
+
+}
+
+#banner .banner_form .common_btn{
+    height: 44px;
+    width: 100px;
+    border-radius: 10px;
+    border: 2px solid #B68C5A ;
+    font-family: 'EB Gramond', serif;
+    font-size: 16px;
+    transition: .4s;
+}
+
+main #banner button:hover{
+    background-color: #fff ;
+    color: #B68C5A;
+ }
+/* banner css end */
+
+/* legal pactice area css start */
+#legal_pactice{
+    margin-top: 120px;
+}
+
+#legal_pactice .legal_info_warper .title, #legal_pactice .legal_info_warper .pera{
+    text-align: center;
+ }
+ #legal_pactice .legal_info_warper .pera{
+    margin: 24px 230px 0;
+ }
+
+ /* legal service css start */
+.legal_service{
+    margin: 50px 56px 0;
+    position: relative;
+}
+
+.legal_service .row{
+    flex-shrink: 1 !important;
+}
+.legal_service .service_item{
+    padding-top: 50px;
+    transition: .4s;
+}
+.legal_service .service_item .item_logo{
+    display: flex;
+    justify-content: center;
+}
+
+.legal_service .service_item .title{
+    text-align: center;
+    padding: 32px 0 24px;
+}
+
+.legal_service .service_item .pera{
+    text-align: center;
+    padding: 0 30px 32px;
+
+}
+
+.legal_service .service_item:hover{
+    background-color: #E7E7E7;
+    cursor: pointer;
+}
+hr {
+    margin: 0rem 0;
+}
+
+.legal_service .hr_vl_left{
+    border-left: 1px solid #E7E7E7;
+    height: 780px;
+    width: 1px;
+    position: absolute;
+    top: 0%;
+    left: 33%;
+}
+
+.legal_service .hr_vl_right{
+    border-left: 1px solid #E7E7E7;
+    height: 780px;
+    width: 1px;
+    position: absolute;
+    top: 0%;
+    left: 67%;
+
+}
+
+
+.legal_service .service_item .item_warper .arrow{
+    text-align: center;
+    position: relative;
+    z-index: 2;
+    margin-bottom: 50px;
+    transition: .4s;
+}
+.legal_service .service_item:hover .arrow {
+    margin-left: 20px;
+} 
+
+.legal_service .service_item .item_warper .arrow_round{
+    height: 32.5px;
+    width: 32.5px;
+    line-height: 32.5;
+    background-color: #B68C5A;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+}
+
+
+
+/* legal service css end */
+
+/* legal pactice area css end */
+
+/* testomonial css start */
+#testomonial{
+    padding-top: 120px;
+}
+
+#testomonial .testomonial_info{
+    text-align: center;
+}
+
+#testomonial .testomonial_info .pera{
+    padding: 24px 0 64px;
+}
+
+/* slik slider css sart */
+.slider_warper .slider_item .img_warper {
+    position: relative;
+}
+
+.slider_warper .slider_item .img_warper img{
+    height: 500px;
+}
+.slider_warper .slider_item .img_warper .overly{
+height: 100%;
+width: 95%;
+background-color: hwb(0 0% 100%/0.6);
+position: absolute;
+top: 0%;
+left: 0%;
+}
+.slider_warper .item{
+    width: 100%;
+    margin: 100px 20px 0px 30px;
+    
+}
+.slider_warper .img_item{
+    height: 70px;
+    width: 70px;
+    background-color: #FFFFFF;
+    border: 3px solid rgb(185, 182, 182);
+    border-radius: 50%;
+    overflow: hidden;
+    margin: auto;
+
+}
+
+.slider_warper .item img {
+width: 100%;
+height: 100% !important ;
+}
+
+.slider_warper .item_details{
+    text-align: center;
+
+}
+.slider_warper .item_details .title{
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: 800;
+    color: #E7E7E7;
+
+}
+.slider_warper .item_details .pera{
+    margin: 4px 0px;
+    color: #a09f9f;
+}
+
+.slider_warper .prev{
+    font-size: 20px;
+    border:1px solid black;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%);
+    cursor: pointer;
+   
+
+}
+
+
+.slider_warper .next{
+    font-size: 20px;
+    border: 1px black;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    right: 1%;
+    transform: translate(-50%);
+    cursor: pointer;
+}
+
+.slider_warper .prev:hover{
+    background-color: #B68C5A;
+    color: white;
+    transition: .4s;
+}
+.slider_warper .next:hover{
+    background-color: #B68C5A;
+    color: white;
+    transition: .4s;
+}
+/* slik slider css end */
+
+
+/* testomonial css end */
+
+/* freqency ask css start */
+#frequency{
+    padding-top: 120px;
+}
+#frequency .frequency_info{
+    text-align: center;
+}
+
+
+#frequency .frequency_info .title{
+    padding-bottom: 20px;
+}
+.accourdian_img img{
+    width: 100px;
+}
+
+#freequency .accordion-item .title{
+    font-weight: 800;
+}
+
+/* frequency ask css end */
+
+/* contract us css start */
+#contract_us{
+    margin-top: 120px;
+}
+
+/* contract us info start */
+#contract_us .contract_us_info{
+text-align: center;
+}
+
+#contract_us .contract_item, #contract_us .from_item{
+    margin-top: 60px;
+}
+
+#contract_us .item_info{
+    text-align: center;
+    height: 240px;
+    width: 285px;
+    background-color: #F3F3F3;
+    padding: 65px 0;
+}
+
+#contract_us .item_info .item_logo{
+    color: #B68C5A;
+    font-size: 24px;
+}
+
+#contract_us .item_details .title{
+    font-size: 24px;
+}
+
+#contract_us .contract_item{
+    position: relative;
+}
+
+#contract_us .contract_item .hr_vl_center {
+    border-top: 1px solid #E7E7E7;
+    width: 96%;
+    position: absolute;
+    top: 50%;
+    left: 2%;
+}
+
+#contract_us .contract_item .hr_vl_right {
+    border-left: 1px solid #E7E7E7;
+    width: 1px;
+    height: 100%;
+    position: absolute;
+    top: 0%;
+    left: 50%;
+}
+
+#contract_us .row{
+flex-wrap: nowrap;
+}
+
+#contract_us .row .contract_item{
+    flex-shrink: 1 !important;
+    }
+/* contract us info end */
+
+/* contract us from css start */
+#contract_us .row .from_item{
+    flex-shrink: 1 !important;
+}
+
+#contract_us .row .from_item  input{
+    width: 90%;
+    margin-bottom: 30px;
+    background-color: #F3F3F3;
+    padding: 16px 0 16px 16px;
+    border: none;
+    border-radius: 10px;
+    font-family: 'poppins', sans-serif;
+    font-size: 16px;
+    color: #707070;
+}
+
+#contract_us .row .from_item  textarea{
+    resize: none;
+    padding: 16px 0 16px 16px;
+    background-color: #F3F3F3;
+    border: none;
+    border-radius: 10px;
+    font-family: 'poppins', sans-serif;
+    font-size: 16px;
+    color: #707070;
+}
+
+#contract_us .row .from_item .common_btn {
+    padding: 18px 167px;
+    font-family: 'poppins' , serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+    border: 1px solid #B68C5A;
+    border-radius: 10px;
+    transition: .4s;
+}
+
+#contract_us .row .from_item .common_btn:hover{
+    background-color: #fff;
+    color: #B68C5A;
+}
+
+
+
+/* contract us from css end */
+
+/* contract us css end */
+
+/* footer css start */
+
+footer{
+    background-color: #111111;
+    margin-top: 100px;
+    padding: 80px 0;
+}
+footer .logo img{
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+footer .logo span{
+    font-family: "EB Garamond", serif;
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 46px;
+    color: #FFFFFF;
+    display: inline-block;
+}
+
+footer .row{
+    padding: 0px 100px;
+}
+
+footer .row .title{
+    font-size: 20px;
+    color: #fff;
+}
+
+footer .row .pera{
+    color: #CFCFCF;
+    padding-top: 40px;
+    font-weight: 400;
+}
+
+footer .row .contact_now .pera{
+    padding-top: 0;
+}
+footer .row .contact_now .contact_details{
+    padding-top: 40px;
+}
+footer .row .usefull_item ul li a {
+    font-family: 'poppins', sans-serif;
+    font-size: 16px;
+    font-weight:normal;
+    color: #F3F3F3;
+    padding-bottom: 10px;
+    display: inline-block;
+}
+
+footer .row .usefull_item ul {
+    padding-top: 40px;
+}
+
+footer .row .subscribe input{
+    width: 300px;
+    padding: 16px 0px 16px 33px ;
+    border: none;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+}
+
+footer .row .subscribe .input_area{
+    position: relative;
+}
+footer .row .subscribe .input_area button {
+    background-color: #B68C5A;
+    font-size: 20px;
+    padding: 12px 25px;
+    border: 2px solid #B68C5A;
+    border-radius: 10px;
+    position: absolute;
+    top: 0%;
+    right: -43%;
+    transition: .4s;
+}
+
+footer .row .subscribe .input_area button:hover{
+    background-color: #fff;
+    color: #B68C5A;
+}
+
+/* footer css end */
+
